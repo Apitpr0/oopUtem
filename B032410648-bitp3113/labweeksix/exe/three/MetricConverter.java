@@ -24,6 +24,7 @@ public class MetricConverter implements MetricConversion, MetricFactor {
      */
 
     public double convertMileToKm(int mile) {
+
         return mile * MetricFactor.distanceFactor;
     }
 
